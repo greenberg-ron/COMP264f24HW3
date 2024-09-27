@@ -215,7 +215,7 @@ int byteSwap(int x, int n, int m) {
  *   Rating: 2
  */
 int isNegative(int x) {
-  return 2;
+  return !!(x>>31);
 }
 /* 
  * addOK - Determine if can compute x+y without overflow
